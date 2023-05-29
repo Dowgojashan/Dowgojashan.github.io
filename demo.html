@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final_EXAM</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <!-- title and introduce -->
+        <div id="area1">
+            <h1><img class="style1" src="images/coin.jpg">Exchange Rate Calculator</h1>
+            <p>Hello User!Welcome to use exchange rate calculator!</p>
+            <hr>
+        </div>
+        <!-- show current rate -->
+        <div id="area2">
+            <h2>Current Exchange Rate</h2>
+            <button type="button" onclick="loadDoc()">Show</button>
+            <br>
+            <table id="example"></table>
+            <hr>
+        </div>
+        <!-- exchange rate -->
+        <div id="area3">
+            <h2>Change Dollars:</h2>
+            <label>Input:</label>
+            <input id="Dollars" type="text" placeholder="ex.100TWD" value=""/>
+            <br>
+            <input id="btn" type="button" value="Submit"/>
+            <br>
+            <p class="dollar"></p>
+            <!-- Reset button -->
+            <button onclick="reset()">Reset</button>
+            <p id="clear"></p>
+        </div>
+        <script src="./myscript.js"></script>
+    </body>
+</html>

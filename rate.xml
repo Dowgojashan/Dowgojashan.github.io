@@ -1,0 +1,44 @@
+<!-- (2)xml data -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExchangeRate>
+    <!-- USD -->
+    <Record>
+        <country>USD</country>
+        <Rate>30.27500</Rate>
+        <code>$</code>
+    </Record>
+    <!-- EUR -->
+    <Record>
+        <country>EUR</country>
+        <Rate>32.10000</Rate>
+        <code>€</code>
+    </Record>
+    <!-- JPY -->
+    <Record>
+        <country>JPY</country>
+        <Rate>0.20900</Rate>
+        <code>¥</code>
+    </Record>
+    <!-- KRW -->
+    <Record>
+        <country>KRW</country>
+        <Rate>0.02143</Rate>
+        <code>₩</code>
+    </Record>
+    <!--AUD-->
+    <Record>
+        <country>AUD</country>
+        <Rate>19.66000</Rate>
+        <code>$</code>
+    </Record>
+</ExchangeRate>
+
+
+<!-- 幣別    匯率
+USD     30.27500
+AUD     19.66000
+JPY     0.20900
+EUR     32.10000
+KRW     0.02143 -->
